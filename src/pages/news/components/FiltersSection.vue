@@ -22,11 +22,7 @@
 <script setup>
 import { defineProps } from "vue";
 import DropdownInput from "../../../components/DropdownInput.vue";
-import {
-  categories,
-  countries,
-  languages,
-} from "../../../helpers/filterOptions";
+import { categories, countries, languages } from "../helpers/filterOptions";
 
 const props = defineProps({
   filters: {
