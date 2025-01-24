@@ -5,6 +5,5 @@
 </template>
 
 <script setup>
-import PageHeader from "./components/PageHeader.vue";
-import NewsPage from "./pages/news/NewsPage.vue";
+import NewsPage from "./features/news/NewsPage.vue";
 </script>
