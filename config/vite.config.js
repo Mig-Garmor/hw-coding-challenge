@@ -47,9 +47,5 @@ export default defineConfig(({ mode }) => {
     },
 
     // Additional server and build options can go here
-    server: {
-      open: true, // Open browser on server start
-      port: 3000, // Specify server port
-    },
   };
 });
