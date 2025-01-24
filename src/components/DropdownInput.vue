@@ -1,6 +1,7 @@
 <template>
   <div class="mb-4">
-    <label :for="label" class="mb-2">{{ label }}</label>
+    <label :for="label"
+           class="mb-2">{{ label }}</label>
     <select
       :id="label"
       :value="modelValue"
@@ -8,7 +9,9 @@
       class="w-full p-2 border border-gray-400 rounded-[5px]"
     >
       <option value="">Select a {{ label.toLowerCase() }}</option>
-      <option v-for="option in options" :key="option.code" :value="option.code">
+      <option v-for="option in options"
+              :key="option.code"
+              :value="option.code">
         {{ option.label }}
       </option>
     </select>
@@ -16,7 +19,6 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
 
 defineProps({
   label: {
@@ -34,5 +36,5 @@ defineProps({
   },
 });
 
-const emit = defineEmits(["update:modelValue"]);
+const emit = defineEmits(['update:modelValue']);
 </script>
