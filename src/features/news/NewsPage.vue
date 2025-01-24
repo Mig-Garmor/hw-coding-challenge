@@ -17,13 +17,16 @@
     />
 
     <!-- Observer Target (Invisible Element) -->
-    <div ref="observerTarget" class="h-1"></div>
+    <div ref="observerTarget"
+         class="h-1"></div>
   </div>
 </template>
 
 <script setup>
 import { ref, reactive, onMounted, watch } from "vue";
-import apiClient from "../../utils/api.js";
+
+import { getLatestArticles } from "./api/apiRequests.js";
+
 import PageHeader from "../../components/PageHeader.vue";
 import FiltersSection from "./components/FiltersSection.vue";
 import NewsList from "./components/NewsList.vue";
@@ -57,7 +60,7 @@ const fetchArticles = async () => {
     if (filters.language) params.language = filters.language;
     if (nextPageToFetchId.value) params.page = nextPageToFetchId.value;
 
-    const { data } = await apiClient.get("/latest", { params });
+    const { data } = await getLatestArticles(params);
 
     // Clear existing articles if it's a fresh fetch (not pagination)
     if (!nextPageToFetchId.value) {
