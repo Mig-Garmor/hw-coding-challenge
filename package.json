@@ -4,24 +4,25 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite --config ./config/vite.config.js",
+    "build": "vite build --config ./config/vite.config.js",
+    "preview": "vite preview --config ./config/vite.config.js",
+    "lint": "eslint . --fix"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/forms": "^0.5.10",
-    "@tailwindcss/typography": "^0.5.16",
+    "vite": "^6.0.5",
     "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.5"
+    "eslint": "^9.18.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "vue-eslint-parser": "^9.4.3",
+    "eslint-plugin-jsonc": "^2.19.1",
+    "jsonc-eslint-parser": "^2.4.0"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.0",
-    "axios": "^1.7.9",
-    "node": "^20.18.2",
-    "postcss-cli": "^11.0.0",
-    "tailwindcss": "^4.0.0",
     "vue": "^3.5.13",
+    "axios": "^1.7.9",
+    "@tailwindcss/vite": "^4.0.0",
     "vue3-toastify": "^0.2.8"
   }
 }
