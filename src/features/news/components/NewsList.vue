@@ -9,8 +9,7 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-import NewsArticle from "./NewsArticle.vue";
+import NewsArticle from './NewsArticle.vue';
 
 const props = defineProps({
   articles: {
