@@ -20,12 +20,11 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
 import DropdownInput from "../../../components/DropdownInput.vue";
-import { categories, countries, languages } from "../helpers/filterOptions";
+import { categories, countries, languages } from "../utils/filterOptions";
 
 const props = defineProps({
-  filters: {
+   filters: {
     type: Object,
     required: true,
   },
