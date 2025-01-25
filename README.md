@@ -14,7 +14,7 @@ A simple Vue 3 application built with Vite, demonstrating a clean project setup,
 ---
 
 ## Prerequisites
-- [Node.js 16+](https://nodejs.org/)  
+- [Node.js 17+](https://nodejs.org/)  
 - [npm 8+](https://www.npmjs.com/)
 
 ---
