@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import InfoMessage from "../../../components/InfoMessage.vue";
+import InfoMessage from "@/components/InfoMessage.vue";
 import { computed } from "vue";
 
 const props = defineProps({

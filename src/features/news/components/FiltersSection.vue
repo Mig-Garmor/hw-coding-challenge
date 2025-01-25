@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import DropdownInput from "../../../components/DropdownInput.vue";
+import DropdownInput from "@/components/DropdownInput.vue";
 import { categories, countries, languages } from "../utils/filterOptions";
 
 const props = defineProps({

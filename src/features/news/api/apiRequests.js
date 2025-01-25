@@ -1,4 +1,4 @@
-import apiClient from '../../../services/apiClient.js';
+import apiClient from '@/services/apiClient.js';
 
 /**
  * Fetch latest articles from the API.

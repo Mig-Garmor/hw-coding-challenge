@@ -27,7 +27,7 @@ import { ref, reactive, onMounted, watch } from "vue";
 
 import { getLatestArticles } from "./api/apiRequests.js";
 
-import PageHeader from "../../components/PageHeader.vue";
+import PageHeader from "@/components/PageHeader.vue";
 import FiltersSection from "./components/FiltersSection.vue";
 import NewsList from "./components/NewsList.vue";
 import InfoMessageHandler from "./components/InfoMessageHandler.vue";
