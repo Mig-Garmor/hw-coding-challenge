@@ -22,9 +22,9 @@ A simple Vue 3 application built with Vite, demonstrating a clean project setup,
 ## Installation
 
 1. **Clone this repository:**
-   ```bash
+   &#96;&#96;&#96;bash
    git clone https://github.com/YOUR_USERNAME/horizonweb-test.git
-   ```
+   &#96;&#96;&#96;
 2. **Change into the project directory:**
    ```bash
    cd horizonweb-test
