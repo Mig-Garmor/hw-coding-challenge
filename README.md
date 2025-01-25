@@ -1,5 +1,5 @@
 
-# HorizonWeb Test
+# Horizon Web Test
 
 A simple Vue 3 application built with Vite, demonstrating a clean project setup, folder structure, and usage of essential tools (ESLint, Tailwind, etc.).
 
