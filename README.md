@@ -122,8 +122,4 @@ project-root/
 └── README.md
 ```
 
----
-
-## License
-Feel free to include your chosen license here (e.g., MIT, Apache, etc.), or remove this section if it’s not needed.
 
