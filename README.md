@@ -1,4 +1,4 @@
-```md
+
 # HorizonWeb Test
 
 A simple Vue 3 application built with Vite, demonstrating a clean project setup, folder structure, and usage of essential tools (ESLint, Tailwind, etc.).
@@ -22,9 +22,9 @@ A simple Vue 3 application built with Vite, demonstrating a clean project setup,
 ## Installation
 
 1. **Clone this repository:**
-   &#96;&#96;&#96;bash
+   ```bash
    git clone https://github.com/YOUR_USERNAME/horizonweb-test.git
-   &#96;&#96;&#96;
+   ```
 2. **Change into the project directory:**
    ```bash
    cd horizonweb-test
@@ -127,4 +127,3 @@ project-root/
 ## License
 Feel free to include your chosen license here (e.g., MIT, Apache, etc.), or remove this section if it’s not needed.
 
-```
