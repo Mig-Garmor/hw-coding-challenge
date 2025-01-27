@@ -51,6 +51,21 @@ export default defineConfig([
           multiline: 1, // Max 1 attribute per line for multi-line elements
         },
       ],
+
+      // General ESLint rules
+      'no-console': 'warn',
+      'no-debugger': 'error',
+      'eqeqeq': ['error', 'always'],
+
+      // Vue-specific rules
+      'vue/no-unused-vars': 'error',
+      'vue/no-deprecated-slot-attribute': 'warn',
+      'vue/no-deprecated-v-on-native-modifier': 'error',
+      'vue/require-default-prop': 'off',
+      'vue/attributes-order': 'warn',
+      'vue/order-in-components': 'warn',
+      'vue/this-in-template': 'error',
+
     },
   },
   // Configuration for JSON files
